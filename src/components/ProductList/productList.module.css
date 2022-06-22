@@ -12,6 +12,9 @@
     justify-content: space-between;
     align-items: center;
 }
+.inputs input{
+    max-width: 203px;
+}
 .selectInput{
     display: flex;
     flex-direction: row;
