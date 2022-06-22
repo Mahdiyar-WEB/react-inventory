@@ -1,0 +1,28 @@
+:root{
+    --darkBlue : #1E2640;
+    --lightGray: #303F59;
+    --color: rgb(124, 122, 122);
+    --focusColor: #223666;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 800px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px ;
+    border-radius: 20px;
+    background-color: var(--lightGray); 
+    margin-bottom: 20px;
+}
+.btnContainer{
+    display: flex;
+    gap: 0 20px;
+}
+.btnContainer button{
+    border-radius: 10px;
+}

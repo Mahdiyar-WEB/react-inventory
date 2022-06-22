@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 90%;
+    padding: 10px 5px;
+    max-width: 800px;
+}
+.inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.selectInput{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.selectInput select{
+    min-width: 203px;
+}

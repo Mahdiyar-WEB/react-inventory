@@ -1,0 +1,26 @@
+:root{
+    --darkBlue : #1E2640;
+    --lightGray: #303F59;
+    --buttonColor: #5E6C87;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.textarea{
+    outline: none;
+    background-color: transparent;
+    border: 1px solid rgb(124, 122, 122);
+    padding: 6px 10px;
+    border-radius: 10px;
+    color: rgb(158, 154, 154);
+    min-height: 75px;
+    max-height: 130px;
+}
+.textarea:focus{
+    border: 1px solid rgb(34, 64, 233);
+}
+.title{
+    color: rgb(124, 122, 122);
+}

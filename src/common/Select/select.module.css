@@ -1,0 +1,45 @@
+:root{
+    --darkBlue : #1E2640;
+    --lightGray: #303F59;
+    --buttonColor: #5E6C87;
+    --focusColor: #054ffc;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    position: relative;
+}
+.title{
+    color: rgb(124, 122, 122);
+}
+.icon{
+    transition: all .3s ease;
+    color: #fff;
+    bottom: 10px;
+    right: 10px;
+    position: absolute;
+}
+.select{
+    display: inline-block;
+    appearance: none;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid rgb(124, 122, 122);
+    padding: 6px 10px;
+    border-radius: 10px;
+    color: rgb(158, 154, 154);
+}
+.select option{
+    background-color: rgb(136, 135, 135);
+    color: #fff;
+}
+.select::-ms-expand{
+    display: none;
+}
+.select:focus{
+    border: 1px solid rgb(34, 64, 233);
+} 
+.rotate{
+    transform: rotate(180deg);
+}

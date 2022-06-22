@@ -1,0 +1,23 @@
+:root{
+    --darkBlue : #1E2640;
+    --lightGray: #303F59;
+    --color: rgb(124, 122, 122);
+    --focusColor: #223666;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px ;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 800px;
+    background-color: var(--lightGray); 
+    margin-bottom: 20px;
+}
+.container button{
+    border-radius: 10px;
+}
+.title{
+    color: var(--color);
+}
