@@ -12,11 +12,10 @@ const ProductList = () => {
   const {items} = useSelector((state)=> state.inventory);
   const dispatch = useDispatch();
   const options = [
-    { value: "all", text: "all" },
     { value: "oldest", text: "oldest" },
     { value: "newest", text: "newest" },
   ];
-  const [sort, setSort] = useState("all");
+  const [sort, setSort] = useState("oldest");
   const [search, setSearch] = useState("");
   const searchFilterHandler = (e) => {
     setSearch(e.target.value);

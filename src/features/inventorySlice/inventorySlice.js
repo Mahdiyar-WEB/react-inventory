@@ -62,9 +62,7 @@ const inventorySlice = createSlice({
       }
     },
     sortItems: (state, action) => {
-      if (action.payload.sort === "all") {
-        state.items = allItems;
-      } else if (action.payload.sort === "oldest") {
+      if (action.payload.sort === "oldest") {
         const clonedProducts = [...state.items];
         state.items = _.orderBy(clonedProducts, ["date"], ["asc"]);
       } else if (action.payload.sort === "newest") {
